@@ -1,0 +1,17 @@
+body{
+    color:slategray;
+    background-color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+}
+
+h1, h2, h3{
+    color: darkslategray;
+
+}
+
+.wrapper{
+
+    width: 900px;
+    margin: 0 auto;
+}
