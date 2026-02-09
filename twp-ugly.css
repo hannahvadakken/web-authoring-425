@@ -1,0 +1,50 @@
+body{
+    color:slategray;
+    background-color: blanchedalmond;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+    margin: 0px auto;
+    
+}
+
+img{
+    margin: 50px auto;
+    display: block;
+    border: 5px solid slategray;
+    border-radius: 10px; 
+}
+
+h1{
+    font-size:50px;
+    color:darkslategray;
+    text-align: center;
+}
+
+
+h2{
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight:normal;
+    color: darkolivegreen;
+    text-align: center;
+
+}
+
+.wrapper{
+    background-color: aliceblue;
+    width: 900px;
+    margin: 0px auto;
+    text-align: left;
+    padding: 50px;
+
+    border-style: solid;
+    border-color:slategray;
+    border-width:  0px 10px;
+}
+a{
+    color: darkcyan;
+}
+p{
+    text-indent: 75px;
+    background-color:lavender;
+}
