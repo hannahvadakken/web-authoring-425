@@ -5,13 +5,45 @@ body{
     line-height: 30px;
 }
 
+h1{
+    text-align: center;
+}
+
 h1, h2, h3{
     color: darkslategray;
 
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 50%;
 }
 
 .wrapper{
 
     width: 900px;
     margin: 0 auto;
+}
+
+a{
+    color:palevioletred;
+}
+
+a:hover{
+    color:darkred;
+}
+
+nav > a {
+    text-decoration: none;
+    font-size: 130%;
+    text-align: center;
+    padding: 3px 10px;
+    background-color: palegoldenrod;
+    border-radius: 2px;
+}
+
+.site-logo-image{
+    display: inline;
+
 }
