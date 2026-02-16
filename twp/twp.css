@@ -1,8 +1,13 @@
 body{
     color:slategray;
-    background-color: aliceblue;
+    background-color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     line-height: 30px;
+    margin-bottom: 0px;
+}
+
+h1, h2, h3, p {
+    padding: 0px 30px;
 }
 
 h1{
@@ -10,7 +15,7 @@ h1{
 }
 
 h1, h2, h3{
-    color: darkslategray;
+    color: darkcyan;
 
 }
 
@@ -24,14 +29,20 @@ img{
 
     width: 900px;
     margin: 0 auto;
+    background-color: aliceblue;
 }
 
 a{
-    color:palevioletred;
+    color:cornflowerblue;
 }
 
 a:hover{
-    color:darkred;
+    color:darkcyan;
+}
+
+nav{
+    background-color: skyblue;
+    padding: 15px;
 }
 
 nav > a {
@@ -39,11 +50,29 @@ nav > a {
     font-size: 130%;
     text-align: center;
     padding: 3px 10px;
-    background-color: palegoldenrod;
     border-radius: 2px;
+}
+
+nav > a:hover {
+    color: aliceblue;
 }
 
 .site-logo-image{
     display: inline;
+    width: 75px;
 
+}
+
+.site-header{
+    display: inline;
+    margin-bottom: 10px;
+}
+
+.gallery{
+    margin-left: 75px;
+}
+
+.gallery > img{
+    width: 250px;
+    display: inline;
 }
