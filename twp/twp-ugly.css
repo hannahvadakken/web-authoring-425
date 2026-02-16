@@ -1,50 +1,78 @@
 body{
     color:slategray;
-    background-color: blanchedalmond;
+    background-color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     line-height: 30px;
-    margin: 0px auto;
-    
+    margin-bottom: 0px;
 }
 
-img{
-    margin: 50px auto;
-    display: block;
-    border: 5px solid slategray;
-    border-radius: 10px; 
+h1, h2, h3, p {
+    padding: 0px 30px;
 }
 
 h1{
-    font-size:50px;
-    color:darkslategray;
     text-align: center;
 }
 
+h1, h2, h3{
+    color: darkcyan;
 
-h2{
-    font-size: 30px;
-    text-decoration: underline;
-    font-weight:normal;
-    color: darkolivegreen;
-    text-align: center;
+}
 
+img{
+    display: block;
+    margin: auto;
+    width: 50%;
 }
 
 .wrapper{
-    background-color: aliceblue;
-    width: 900px;
-    margin: 0px auto;
-    text-align: left;
-    padding: 50px;
 
-    border-style: solid;
-    border-color:slategray;
-    border-width:  0px 10px;
+    width: 900px;
+    margin: 0 auto;
+    background-color: aliceblue;
 }
+
 a{
-    color: darkcyan;
+    color:cornflowerblue;
 }
-p{
-    text-indent: 75px;
-    background-color:lavender;
+
+a:hover{
+    color:darkcyan;
+}
+
+nav{
+    background-color: skyblue;
+    padding: 15px;
+}
+
+nav > a {
+    text-decoration: none;
+    font-size: 130%;
+    text-align: center;
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+
+nav > a:hover {
+    color: aliceblue;
+}
+
+.site-logo-image{
+    display: inline;
+    width: 75px;
+
+}
+
+.site-header{
+    display: inline;
+    margin-bottom: 10px;
+}
+
+.gallery{
+    margin-left: 75px;
+}
+
+.gallery > img{
+    width: 250px;
+    display: inline;
 }
