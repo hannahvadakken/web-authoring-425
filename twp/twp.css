@@ -64,7 +64,6 @@ nav > a:hover {
 }
 
 .site-header{
-    display: inline;
     margin-bottom: 10px;
 }
 
@@ -76,3 +75,4 @@ nav > a:hover {
     width: 250px;
     display: inline;
 }
+
