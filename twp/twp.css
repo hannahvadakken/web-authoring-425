@@ -21,7 +21,7 @@ h1, h2, h3{
 img{
     display: block;
     margin: auto;
-    width: 50%;
+    width: 90%;
 }
 
 .wrapper{
@@ -67,13 +67,30 @@ nav > a:hover {
 }
 
 .gallery{
-    margin-left: 75px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 10px;
+    justify-items: center;
+    align-items: start;
+    justify-content: space-between;
+    text-align:center;
+    
 }
 
-.gallery > img{
-    width: 250px;
-    display: inline;
+.gallery-item{
+    height: 250px;
+    
 }
+
+.gallery-item > img {
+    border-radius: 5px;
+    transition: width 150ms;
+}
+
+.gallery-item > img:hover{
+    width: 95%;
+}
+
 
 table{
     margin:auto;
@@ -81,5 +98,9 @@ table{
 
 table > td, th{
     padding: 10px 30px;
+}
+
+.inspo-links{
+    text-align: center;
 }
 
